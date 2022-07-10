@@ -1,0 +1,33 @@
+@import './scss/reset';
+.main-wrap{
+  display: flex;
+  justify-content: space-evenly;
+  &__section-first{
+    min-width: 200px;
+    margin: 0 20px;
+  }
+  &__section-second{
+    margin: 0 20px;
+  }
+}
+
+.list-alboms{
+  padding: 15px;
+  list-style:auto;
+  &__style{
+    &:hover{
+      background-color: #18e1e1;
+      cursor: pointer;
+      transition: 1s ease;
+    }
+
+  }
+}
+
+.style-img{
+  max-width: 200px;
+}
+
+.main-wrap__section-second{
+  max-width: 400px;
+}
